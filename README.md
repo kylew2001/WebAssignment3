@@ -1,2 +1,2 @@
-# WebAssignment3.github.io
+# WebAssignment3
 Web Assignment 3
