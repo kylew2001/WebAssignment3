@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Simple Style Clothing</title>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">  <!-- This links to the Bootstrap CSS stylesheet -->
+         <link rel="stylesheet" type="text/css" href="stylesheetassignment.css"> <!-- This links to an external CSS stylesheet named stylesheetassignment.css -->
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  <!-- This loads the jQuery library -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <!-- This loads the Bootstrap JavaScript library-->
+   </head>
+   <body>
+      <header>
+         <div class="color-box left"></div>
+         <div class="color-box right"></div>
+         <h1>Simple Style Clothing</h1>
+         <img id="logo" src="images/SimpleStyleLogo.png" alt="logo" style="width: 160px; height: 140px;">
+         <a class="nav-btn" href="signup.html">Sign Up</a>
+         <nav class="navbar navbar-expand-lg bg-light"><!-- creates a nav bar that has the elements Home, Mens clothing, womans clothing, about, contact.-->
+            <div class="container-fluid">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="mens.html">Mens Clothing</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="womans.html">Womans Clothing</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="box-below-nav"></div>
+      </header>
+      <main>
+         <div class="maintext-container">
+            <p>Payment Page</p>
+         </div>
+      </main>
+      <footer>
+         <p><b>&copy; 2023 Simple Style Clothing</b></p>
+      </footer>
+   </body>
+</html>

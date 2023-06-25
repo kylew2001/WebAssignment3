@@ -1,0 +1,294 @@
+/* This section sets properties for the entire body of the document */
+body {
+	font-family: Arial, sans-serif; /* Set the font family to Arial or a sans-serif font */
+	margin: 0; /* Remove margin */
+	padding: 0; /* Remove padding */
+	background-color: #640723; /* Set the background color to a dark red */
+}
+
+/* This section sets properties for the header element */
+header {
+	background-color: #B6B6B6; /* Set the background color to a light gray */
+	color: #000000; /* Set the font color to black */
+	padding: 30px; /* Add padding to the header */
+	display: flex; /* Set the display property to flex */
+	flex-direction: column; /* Set the flex direction to column */
+	align-items: center; /* Align items to the center */
+	padding-left: 20px; /* Add left padding */
+	padding-top: 20px; /* Add top padding */
+	font-family: fantasy; /* Set the font family to a fantasy font */
+}
+
+/* This section sets properties for the navbar element */
+.navbar {
+	background-color: #959595 !important; /* Set the background color to a light gray */
+	margin-top: 20px; /* Add margin to the top */
+	border-radius: 50px; /* Add a rounded border */
+}
+
+/* This section sets properties for the unordered list inside the navbar */
+nav ul {
+	list-style: none; /* Remove the list bullet points */
+	display: flex; /* Set the display property to flex */
+	gap: 100px; /* Add gap between list items */
+	margin: 0; /* Remove margin */
+	padding: 0; /* Remove padding */
+}
+
+/* This section sets properties for the anchor tags inside the list items in the navbar */
+nav ul li a {
+	color: #000000; /* Set the font color to black */
+	text-decoration: none; /* Remove underline */
+	border-radius: 100px; /* Add a rounded border */
+	transition: background-color 0.3s ease; /* Add transition for hover effect */
+	width: 130px; /* Set width of list items */
+	display: flex; /* Set the display property to flex */
+	align-items: center; /* Align items to the center */
+	justify-content: center; /* Center the text */
+	text-align: center; /* Center the text */
+	white-space: nowrap; /* Prevent line breaks */
+	border: 2px solid transparent; /* Add a border with 2px width and transparent color */
+}
+
+/* This section sets properties for anchor tags inside list items in the navbar when hovering over them */
+nav ul li a:hover {
+	background-color: #666; /* Set the background color to a dark gray */
+	color: #721324; /* Set the font color to a dark red */
+	border: 2px solid #666; /* Add a border with 2px width and a dark gray color */
+}
+
+
+/* Defines styles for the main container */
+main {
+	max-width: 1200px; /* Sets the maximum width of the container to 1200 pixels */
+	margin: 0 auto; /* Centers the container horizontally by setting left and right margins to auto */
+	padding: 20px; /* Adds 20 pixels of padding to the container */
+	display: flex; /* Turns the container into a flex container */
+	flex-wrap: wrap; /* Allows flex items to wrap to the next line */
+	gap: 20px; /* Sets the gap between flex items to 20 pixels */
+	justify-content: center; /* Centers flex items horizontally */
+	min-height: 67.2vh; /* Sets the minimum height of the container to 67.2% of the viewport height */
+}
+
+/* Defines styles for the footer element */
+footer {
+	background-color: #721324; /* Sets the background color of the footer to a dark red */
+	color: #000000; /* Sets the text color of the footer to black */
+	position: relative; /* Positions the footer element relative to its normal position */
+	bottom: 0; /* Positions the footer at the bottom of its container */
+	left: 0; /* Positions the footer at the left side of its container */
+	right: 0; /* Positions the footer at the right side of its container */
+	padding: 20px; /* Adds 20 pixels of padding to the footer */
+	text-align: center; /* Centers the text in the footer */
+	font-size: 0.8rem; /* Sets the font size of the text in the footer to 0.8rem (80% of the default font size) */
+}
+
+/* Defines styles for the element with the ID "logo" */
+#logo {
+	position: absolute; /* Positions the element with respect to its closest positioned ancestor */
+	top: 10px; /* Positions the element 10 pixels from the top of its container */
+	left: 10px; /* Positions the element 10 pixels from the left side of its container */
+	border-radius: 20px; /* Applies a border-radius of 20 pixels to the element */
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a box shadow to the element */
+}
+
+/* Defines styles for elements with the class "color-box" */
+.color-box {
+	height: 100%; /* Sets the height of the element to 100% of its parent container */
+	width: 20%; /* Sets the width of the element to 20% of its parent container */
+	position: fixed; /* Positions the element relative to the browser window */
+	top: 0; /* Positions the element at the top of the window */
+	z-index: -1; /* Sets the stacking order of the element to be behind other content */
+}
+
+/* Defines styles for elements with the class "left" */
+.left {
+	background-color: #B6B6B6; /* Sets the background color of elements with the class "left" to a light gray */
+	height: 100%; /* Sets the height of the element to 100% of its parent container */
+	width: 80px; /* Sets the width of the element to 80 pixels */
+	position: fixed; /* Positions the element relative to the browser window */
+	top: 0; /* Positions the element at the top of the window */
+	left: 0; /* Positions the element at the left side of the window */
+}
+
+/* Styles for the element with class "right" */
+.right {
+	background-color: #B6B6B6; /* Sets the background color */
+	height: 100%; /* Sets the height to 100% */
+	width: 80px; /* Sets the width to 80 pixels */
+	position: fixed; /* Sets the position to fixed */
+	top: 0; /* Sets the top position to 0 */
+	right: 0; /* Sets the right position to 0 */
+}
+
+/* Styles for the element with class "box-below-nav" */
+.box-below-nav {
+	background-color: #721324; /* Sets the background color */
+	height: 100px; /* Sets the height to 100 pixels */
+	width: 100%; /* Sets the width to 100% */
+	position: absolute; /* Sets the position to absolute */
+	left: 0; /* Sets the left position to 0 */
+	top: 180px; /* Sets the top position to 180 pixels */
+}
+
+/* Styles for elements with class "nav-btn" */
+.nav-btn {
+	position: absolute; /* Sets the position to absolute */
+	text-decoration: none; /* Removes text decoration */
+	top: 30px; /* Sets the top position to 30 pixels */
+	right: 30px; /* Sets the right position to 30 pixels */
+	background-color: #959595; /* Sets the background color */
+	color: #000; /* Sets the text color */
+	padding: 10px 20px; /* Sets the padding */
+	border-radius: 10px; /* Sets the border radius */
+	transition: background-color 0.3s ease; /* Adds a transition effect */
+}
+
+.nav-btn:hover {
+	background-color: #666; /* Changes the background color on hover */
+	color: #721324; /* Changes the text color on hover */
+	text-decoration: none; /* Removes text decoration on hover */
+}
+
+/* Styles for elements with class "shop-container" */
+.shop-container {
+	display: flex; /* Sets the display to flex */
+	flex-wrap: wrap; /* Allows items to wrap within the container */
+	justify-content: center; /* Centers items horizontally */
+	align-items: center; /* Centers items vertically */
+	padding-top: 80px; /* Sets the top padding to 80 pixels */
+	margin: 20px auto; /* Sets margins */
+}
+
+/* Styles for elements with class "shop-item" */
+.shop-item {
+	display: block; /* Sets the display to block */
+	margin: 0 auto 100px; /* Sets margins */
+	text-align: center; /* Centers text */
+	width: 300px; /* Sets the width to 300 pixels */
+	height: 300px; /* Sets the height to 300 pixels */
+}
+
+/* Styles for images within elements with class "shop-item" */
+.shop-item img {
+	max-width: 100%; /* Sets the maximum width to 100% */
+	border-radius: 15px; /* Sets the border radius */
+}
+
+/* Styles for elements with class "shop-item-description" */
+.shop-item-description {
+	margin-top: 10px; /* Sets the top margin to 10 pixels */
+	font-size: 14px; /* Sets the font size to 14 pixels */
+	line-height: 1.5; /* Sets the line height */
+	font-weight: bold; /* Sets the font weight to bold */
+	margin-bottom: 60px; /* Sets the bottom margin to 60 pixels */
+	color: #b6b6b6; /* Sets the text color */
+}
+
+
+/* This block sets styles for the ".maintext-container" class */
+.maintext-container {
+	background-color: #b6b6b6; /* sets background color */
+	padding: 20px; /* sets padding around the element */
+	border: 1px solid #ddd; /* sets border size and color */
+	border-radius: 5px; /* sets border radius */
+	margin: 20px; /* sets margin around the element */
+	margin-top: 100px; /* sets top margin */
+	min-width: 700px; /* sets minimum width */
+	max-width: 700px; /* sets maximum width */
+	text-align: center; /* sets text alignment */
+	flex: 1; /* sets flex value */
+}
+
+/* This block sets styles for the ".containerleftside" class */
+.containerleftside {
+	display: flex; /* sets display property */
+	flex-direction: row-reverse; /* sets flex direction */
+	align-items: center; /* sets alignment of items */
+	font-size: 20px; /* sets font size */
+}
+
+/* This block sets styles for the ".img-container" class */
+.img-container {
+	margin-top: 80px; /* sets top margin */
+	margin-right: 80px; /* sets right margin */
+	flex: 1; /* sets flex value */
+	display: flex; /* sets display to flex */
+	justify-content: flex-end; /* sets alignment of content */
+	align-items: center; /* sets alignment of items */
+}
+
+/* This block sets styles for the "img" element inside ".img-container" class */
+.img-container img {
+	max-width: 120%; /* sets maximum width */
+	height: auto; /* sets height */
+	border-radius: 40px; /* sets border radius */
+}
+
+/* This block sets styles for the ".containerabout" class */
+.containerabout {
+	display: flex; /* sets display property */
+	flex-direction: row; /* sets flex direction */
+	align-items: center; /* sets alignment of items */
+	font-size: 20px; /* sets font size */
+}
+
+/* This block sets styles for the ".contact-container" class */
+.contact-container {
+	margin-top: 80px; /* sets top margin */
+	margin-right: 140px; /* sets right margin */
+	flex: 1; /* sets flex value */
+	display: flex; /* sets display property */
+	justify-content: flex-end; /* sets alignment of content */
+	align-items: center; /* sets alignment of items */
+}
+
+/* This block sets styles for the "img" element inside ".contact-container" class */
+.contact-container img {
+	max-width: 280px; /* sets maximum width */
+	height: auto; /* sets height */
+	border-radius: 40px; /* sets border radius */
+}
+
+/* This block sets styles for the ".aboutimg-container" class */
+.aboutimg-container {
+	margin-top: 80px; /* sets top margin */
+	margin-left: 50px; /* sets left margin */
+	flex: 1; /* sets flex value */
+	display: flex; /* sets display property */
+	justify-content: flex-end; /* sets alignment of content */
+	align-items: center; /* sets alignment of items */
+	border-color: grey; /* sets border color */
+}
+
+/* This block sets styles for the "img" element inside ".aboutimg-container" class */
+.aboutimg-container img {
+	max-width: 350px; /* sets maximum width */
+	height: auto; /* sets height */
+	border-radius: 40px; /* sets border radius */
+}
+
+
+/* This block sets the styles for the .containersignup class */
+.containersignup {
+	position: relative; /* Sets the positioning context for child elements */
+	margin-top: 250px; /* Sets the top margin for the element */
+	max-width: 600px; /* Sets the maximum width of the element */
+	width: 600px; /* Sets the width of the element */
+	color: #b6b6b6; /* Sets the text color of the element */
+	font-size: 15px; /* Sets the font size of the element */
+}
+
+/* This block sets the styles for the .signuptext-container class */
+.signuptext-container {
+	position: absolute; /* Sets the positioning context for child elements */
+	border-radius: 20px; /* Sets the border radius of the element */
+	border-color: #666; /* Sets the border color of the element */
+	margin-top: 100px; /* Sets the top margin for the element */
+	width: 450px; /* Sets the width of the element */
+	text-align: center; /* Sets the text alignment of the element */
+	padding: 20px; /* Sets the padding of the element */
+	background-color: #b6b6b6; /* Sets the background color of the element */
+}
+
+

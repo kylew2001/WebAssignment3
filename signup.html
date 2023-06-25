@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Sign up</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">  <!-- This links to the Bootstrap CSS stylesheet -->
+         <link rel="stylesheet" type="text/css" href="stylesheetassignment.css"> <!-- This links to an external CSS stylesheet named stylesheetassignment.css -->
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  <!-- This loads the jQuery library -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <!-- This loads the Bootstrap JavaScript library-->
+   </head>
+   <body>
+      <header>
+         <div class="color-box left"></div>
+         <div class="color-box right"></div>
+         <h1>Simple Style Clothing</h1>
+         <img id="logo" src="images/SimpleStyleLogo.png" alt="logo" style="width: 160px; height: 140px;">
+         <a class="nav-btn" href="signup.html">Sign Up</a>
+         <nav class="navbar navbar-expand-lg bg-light"><!-- creates a nav bar that has the elements Home, Mens clothing, womans clothing, about, contact.-->
+            <div class="container-fluid">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="mens.html">Mens Clothing</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="womans.html">Womans Clothing</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="box-below-nav"></div>
+      </header>
+      <main><!-- inserts a text box above a sign up form that required name, phone, email-->
+         <div class="signuptext-container">
+            <p>Sign up to receive our weekly newsletter! Receive updates on the newest fashion!</p>
+         </div>
+         <br>
+         <div class="containersignup">
+            <form id="signup-form">
+               <div class="form-group">
+                  <label for="first-name">First Name</label>
+                  <input type="text" class="form-control" id="first-name" name="first-name" required>
+               </div>
+               <div class="form-group">
+                  <label for="last-name">Last Name</label>
+                  <input type="text" class="form-control" id="last-name" name="last-name" required>
+               </div>
+               <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="text" class="form-control" id="email" name="email" required>
+               </div>
+               <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="text" class="form-control" id="phone" name="phone" required>
+               </div>
+               <div class="form-group">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="reset" class="btn btn-secondary">Reset</button>
+               </div>
+            </form>
+         </div>
+      </main>
+      <footer>
+         <p><b>&copy; 2023 Simple Style Clothing</b></p>
+      </footer>
+   </body>
+</html>
